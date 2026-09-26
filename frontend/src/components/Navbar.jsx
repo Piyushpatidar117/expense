@@ -170,12 +170,7 @@ const Navbar = () => {
             >
             Features
           </li>
-          <li
-            onClick={()=>navigate("/contact")}
-            className={`cursor-pointer transition ${isPathActive("/contact") ? "text-indigo-600" : "hover:text-indigo-600"}`}
-          >
-            Contact
-          </li>
+           
         </ul>
 
         {/* Right Side Buttons - Desktop */}
@@ -253,12 +248,7 @@ const Navbar = () => {
               Features
             </button>
 
-            <button
-              onClick={() => handleNavigation("/contact")}
-              className={`block w-full text-left px-3 py-2 transition font-medium ${isPathActive("/contact") ? "text-indigo-600 dark:text-indigo-400" : "text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"}`}
-            >
-              Contact
-            </button>
+            
 
             <button
               onClick={() => handleNavigation("/circle/create")}

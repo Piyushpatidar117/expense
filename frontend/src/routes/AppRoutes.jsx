@@ -16,7 +16,6 @@ import RoomDashboard from '../pages/RoomDashboard'
 import RoomList from '../pages/RoomList'
 import UpdateExpense from '../components/UpdateExpense'
 import DeleteExpense from '../components/DeleteExpense'
-import Contact from '../pages/Contact'
 import Loader from '../components/Loader'
 import GuidePage from '../pages/GuidePage'
 const AppRoutes = () => {
@@ -78,7 +77,6 @@ const AppRoutes = () => {
              <Route path='/delete/:expenseId' element={<DeleteExpense />} />
              <Route path='/features' element={<Features />} />
              <Route path='/register' element={<Register />} />
-             <Route path='/contact' element={<Contact />} />
              <Route path='/guide' element={<GuidePage />} />
              <Route path='*' element={<h1>404 Not Found</h1>} />
         </Routes>
